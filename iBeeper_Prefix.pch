@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'iBeeper' target in the 'iBeeper' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    #import <CoreGraphics/CoreGraphics.h>
+#endif

@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* iBeeperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iBeeperAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* iBeeperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* iBeeperViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* iBeeperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* iBeeperViewController.m */; };
+		2C0A1CD7113A950000780505 /* horizontal_line.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2C0A1CD6113A950000780505 /* horizontal_line.jpg */; };
+		2C0A1CFB113AA0BB00780505 /* BeepDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C1BA1EE0FEDF243000951E5 /* BeepDetailViewController.xib */; };
+		2C0F5584109C0FA80078AE79 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0F5583109C0FA80078AE79 /* QuartzCore.framework */; };
+		2C1A63420FE97DDD00ECA7BC /* BeepModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1A63410FE97DDD00ECA7BC /* BeepModel.m */; };
+		2C1BA1EF0FEDF243000951E5 /* BeepDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1BA1ED0FEDF243000951E5 /* BeepDetailViewController.m */; };
+		2C1BA21F0FEDF5C2000951E5 /* horizontal_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1BA21E0FEDF5C2000951E5 /* horizontal_line.png */; };
+		2C1BA3420FEEEBBB000951E5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1BA3410FEEEBBB000951E5 /* MessageUI.framework */; };
+		2C1BA3970FEEF86B000951E5 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1BA3950FEEF86B000951E5 /* down.png */; };
+		2C1BA3980FEEF86B000951E5 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C1BA3960FEEF86B000951E5 /* up.png */; };
+		2C281AE20FF075000060B64C /* Notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2C281AE10FF075000060B64C /* Notes.txt */; };
+		2C290D070FF2CC1200DE115A /* iBeeper.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 2C290D060FF2CC1200DE115A /* iBeeper.sqlite */; };
+		2C34928E0FE97C6100393712 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2C34928D0FE97C6100393712 /* Settings.bundle */; };
+		2C4216531145FBB50047369A /* ActionSheetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C655E7D11360119002261CF /* ActionSheetManager.m */; };
+		2C59B66A0FFE82C1006E32FC /* ibeeper1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 2C59B6690FFE82C1006E32FC /* ibeeper1.caf */; };
+		2C655F341138D4BA002261CF /* AppStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C655F331138D4BA002261CF /* AppStateManager.m */; };
+		2C743A00101AD6CA00296CF9 /* iBeeperInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7439FE101AD6CA00296CF9 /* iBeeperInfoView.m */; };
+		2C743A01101AD6CA00296CF9 /* iBeeperInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C7439FF101AD6CA00296CF9 /* iBeeperInfoView.xib */; };
+		2C7562A90FF1B7DA009D6591 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7562A80FF1B7DA009D6591 /* SettingsTableViewController.m */; };
+		2C7562AD0FF1BAA1009D6591 /* SettingsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C7562AC0FF1BAA1009D6591 /* SettingsTableViewController.xib */; };
+		2C7564440FF2860F009D6591 /* appStat.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C7564430FF2860F009D6591 /* appStat.plist */; };
+		2C7BD0890FEFE54100443F51 /* BeepStorageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7BD0880FEFE54100443F51 /* BeepStorageManager.m */; };
+		2C7BD0970FEFF42A00443F51 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BD0960FEFF42A00443F51 /* libsqlite3.dylib */; };
+		2C7BD20B0FF04FD800443F51 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7BD2000FF04FD800443F51 /* NSObject+SBJSON.m */; };
+		2C7BD20C0FF04FD800443F51 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7BD2020FF04FD800443F51 /* NSString+SBJSON.m */; };
+		2C7BD20D0FF04FD800443F51 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7BD2040FF04FD800443F51 /* SBJSON.m */; };
+		2C7BD20E0FF04FD800443F51 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7BD2060FF04FD800443F51 /* SBJsonBase.m */; };
+		2C7BD20F0FF04FD800443F51 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7BD2080FF04FD800443F51 /* SBJsonParser.m */; };
+		2C7BD2100FF04FD800443F51 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7BD20A0FF04FD800443F51 /* SBJsonWriter.m */; };
+		2CA250C210BAA79B00A93B68 /* NSStringEmailCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA250C110BAA79B00A93B68 /* NSStringEmailCategory.m */; };
+		2CCC23830FFD143700295D7D /* ibeeper_beeper.aif in Resources */ = {isa = PBXBuildFile; fileRef = 2CCC23820FFD143700295D7D /* ibeeper_beeper.aif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* iBeeperAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iBeeperAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* iBeeperAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iBeeperAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* iBeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* iBeeperViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = iBeeperViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* iBeeperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iBeeperViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* iBeeperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iBeeperViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C0A1CD6113A950000780505 /* horizontal_line.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = horizontal_line.jpg; sourceTree = "<group>"; };
+		2C0F5583109C0FA80078AE79 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2C1A63400FE97DDD00ECA7BC /* BeepModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeepModel.h; sourceTree = "<group>"; };
+		2C1A63410FE97DDD00ECA7BC /* BeepModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeepModel.m; sourceTree = "<group>"; };
+		2C1A634F0FE9847200ECA7BC /* AlertDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AlertDataSource.h; path = Classes/AlertDataSource.h; sourceTree = "<group>"; };
+		2C1A63500FE9847200ECA7BC /* AlertDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlertDataSource.m; path = Classes/AlertDataSource.m; sourceTree = "<group>"; };
+		2C1BA1EC0FEDF243000951E5 /* BeepDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeepDetailViewController.h; path = ../BeepDetailViewController.h; sourceTree = "<group>"; };
+		2C1BA1ED0FEDF243000951E5 /* BeepDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BeepDetailViewController.m; path = ../BeepDetailViewController.m; sourceTree = "<group>"; };
+		2C1BA1EE0FEDF243000951E5 /* BeepDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeepDetailViewController.xib; sourceTree = "<group>"; };
+		2C1BA21E0FEDF5C2000951E5 /* horizontal_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = horizontal_line.png; path = Classes/horizontal_line.png; sourceTree = "<group>"; };
+		2C1BA3410FEEEBBB000951E5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		2C1BA3950FEEF86B000951E5 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = down.png; path = Classes/down.png; sourceTree = "<group>"; };
+		2C1BA3960FEEF86B000951E5 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = up.png; path = Classes/up.png; sourceTree = "<group>"; };
+		2C281AE10FF075000060B64C /* Notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Notes.txt; path = Classes/Notes.txt; sourceTree = "<group>"; };
+		2C290D050FF2CAB100DE115A /* Queries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queries.h; sourceTree = "<group>"; wrapsLines = 1; };
+		2C290D060FF2CC1200DE115A /* iBeeper.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = iBeeper.sqlite; sourceTree = "<group>"; };
+		2C34928D0FE97C6100393712 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		2C59B6690FFE82C1006E32FC /* ibeeper1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ibeeper1.caf; sourceTree = "<group>"; };
+		2C655E7C11360119002261CF /* ActionSheetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetManager.h; sourceTree = "<group>"; };
+		2C655E7D11360119002261CF /* ActionSheetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetManager.m; sourceTree = "<group>"; };
+		2C655F321138D4BA002261CF /* AppStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppStateManager.h; sourceTree = "<group>"; };
+		2C655F331138D4BA002261CF /* AppStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppStateManager.m; sourceTree = "<group>"; };
+		2C7439FD101AD6CA00296CF9 /* iBeeperInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iBeeperInfoView.h; sourceTree = "<group>"; };
+		2C7439FE101AD6CA00296CF9 /* iBeeperInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iBeeperInfoView.m; sourceTree = "<group>"; };
+		2C7439FF101AD6CA00296CF9 /* iBeeperInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = iBeeperInfoView.xib; path = Classes/iBeeperInfoView.xib; sourceTree = "<group>"; };
+		2C7562A70FF1B7DA009D6591 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		2C7562A80FF1B7DA009D6591 /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
+		2C7562AC0FF1BAA1009D6591 /* SettingsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SettingsTableViewController.xib; path = Classes/SettingsTableViewController.xib; sourceTree = "<group>"; };
+		2C7563FC0FF26EB3009D6591 /* KeysAndConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeysAndConstants.h; path = Classes/KeysAndConstants.h; sourceTree = "<group>"; };
+		2C7564430FF2860F009D6591 /* appStat.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = appStat.plist; sourceTree = "<group>"; };
+		2C7BD0870FEFE54100443F51 /* BeepStorageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeepStorageManager.h; sourceTree = "<group>"; };
+		2C7BD0880FEFE54100443F51 /* BeepStorageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeepStorageManager.m; sourceTree = "<group>"; wrapsLines = 1; };
+		2C7BD0960FEFF42A00443F51 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		2C7BD1FE0FF04FD800443F51 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSON.h; path = JSON/JSON.h; sourceTree = "<group>"; };
+		2C7BD1FF0FF04FD800443F51 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+SBJSON.h"; path = "JSON/NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		2C7BD2000FF04FD800443F51 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SBJSON.m"; path = "JSON/NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		2C7BD2010FF04FD800443F51 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SBJSON.h"; path = "JSON/NSString+SBJSON.h"; sourceTree = "<group>"; };
+		2C7BD2020FF04FD800443F51 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SBJSON.m"; path = "JSON/NSString+SBJSON.m"; sourceTree = "<group>"; };
+		2C7BD2030FF04FD800443F51 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJSON.h; path = JSON/SBJSON.h; sourceTree = "<group>"; };
+		2C7BD2040FF04FD800443F51 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJSON.m; path = JSON/SBJSON.m; sourceTree = "<group>"; };
+		2C7BD2050FF04FD800443F51 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonBase.h; path = JSON/SBJsonBase.h; sourceTree = "<group>"; };
+		2C7BD2060FF04FD800443F51 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonBase.m; path = JSON/SBJsonBase.m; sourceTree = "<group>"; };
+		2C7BD2070FF04FD800443F51 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonParser.h; path = JSON/SBJsonParser.h; sourceTree = "<group>"; };
+		2C7BD2080FF04FD800443F51 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonParser.m; path = JSON/SBJsonParser.m; sourceTree = "<group>"; };
+		2C7BD2090FF04FD800443F51 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonWriter.h; path = JSON/SBJsonWriter.h; sourceTree = "<group>"; };
+		2C7BD20A0FF04FD800443F51 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = JSON/SBJsonWriter.m; sourceTree = "<group>"; };
+		2CA250C010BAA79B00A93B68 /* NSStringEmailCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSStringEmailCategory.h; sourceTree = "<group>"; };
+		2CA250C110BAA79B00A93B68 /* NSStringEmailCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringEmailCategory.m; sourceTree = "<group>"; };
+		2CAB21E60FF40186008AE70C /* SettingsValues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsValues.h; path = Classes/SettingsValues.h; sourceTree = "<group>"; };
+		2CCC23820FFD143700295D7D /* ibeeper_beeper.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = ibeeper_beeper.aif; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* iBeeper_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iBeeper_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* iBeeper-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iBeeper-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				2C1BA3420FEEEBBB000951E5 /* MessageUI.framework in Frameworks */,
+				2C7BD0970FEFF42A00443F51 /* libsqlite3.dylib in Frameworks */,
+				2C0F5584109C0FA80078AE79 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2C655E7C11360119002261CF /* ActionSheetManager.h */,
+				2C655E7D11360119002261CF /* ActionSheetManager.m */,
+				2CA250C010BAA79B00A93B68 /* NSStringEmailCategory.h */,
+				2CA250C110BAA79B00A93B68 /* NSStringEmailCategory.m */,
+				2C7439FD101AD6CA00296CF9 /* iBeeperInfoView.h */,
+				2C7439FE101AD6CA00296CF9 /* iBeeperInfoView.m */,
+				2C7BD0870FEFE54100443F51 /* BeepStorageManager.h */,
+				2C7BD0880FEFE54100443F51 /* BeepStorageManager.m */,
+				2C1BA1EC0FEDF243000951E5 /* BeepDetailViewController.h */,
+				2C1BA1ED0FEDF243000951E5 /* BeepDetailViewController.m */,
+				1D3623240D0F684500981E51 /* iBeeperAppDelegate.h */,
+				1D3623250D0F684500981E51 /* iBeeperAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* iBeeperViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* iBeeperViewController.m */,
+				2C1A63400FE97DDD00ECA7BC /* BeepModel.h */,
+				2C1A63410FE97DDD00ECA7BC /* BeepModel.m */,
+				2C7562A70FF1B7DA009D6591 /* SettingsTableViewController.h */,
+				2C7562A80FF1B7DA009D6591 /* SettingsTableViewController.m */,
+				2C655F321138D4BA002261CF /* AppStateManager.h */,
+				2C655F331138D4BA002261CF /* AppStateManager.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* iBeeper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				2C281AE10FF075000060B64C /* Notes.txt */,
+				2C7BD1FD0FF04FCB00443F51 /* JSON */,
+				2C61916E0FED61E700B4CA19 /* Old */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2CAB21E60FF40186008AE70C /* SettingsValues.h */,
+				2C290D050FF2CAB100DE115A /* Queries.h */,
+				2C7563FC0FF26EB3009D6591 /* KeysAndConstants.h */,
+				32CA4F630368D1EE00C91783 /* iBeeper_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2C7439FF101AD6CA00296CF9 /* iBeeperInfoView.xib */,
+				2C1BA1EE0FEDF243000951E5 /* BeepDetailViewController.xib */,
+				2899E5210DE3E06400AC0155 /* iBeeperViewController.xib */,
+				2C7562AC0FF1BAA1009D6591 /* SettingsTableViewController.xib */,
+				2C0A1CD6113A950000780505 /* horizontal_line.jpg */,
+				2C59B6690FFE82C1006E32FC /* ibeeper1.caf */,
+				2CCC23820FFD143700295D7D /* ibeeper_beeper.aif */,
+				2C7564430FF2860F009D6591 /* appStat.plist */,
+				2C1BA3950FEEF86B000951E5 /* down.png */,
+				2C1BA3960FEEF86B000951E5 /* up.png */,
+				2C1BA21E0FEDF5C2000951E5 /* horizontal_line.png */,
+				2C290D060FF2CC1200DE115A /* iBeeper.sqlite */,
+				2C34928D0FE97C6100393712 /* Settings.bundle */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* iBeeper-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C7BD0960FEFF42A00443F51 /* libsqlite3.dylib */,
+				2C1BA3410FEEEBBB000951E5 /* MessageUI.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				2C0F5583109C0FA80078AE79 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C61916E0FED61E700B4CA19 /* Old */ = {
+			isa = PBXGroup;
+			children = (
+				2C1A63500FE9847200ECA7BC /* AlertDataSource.m */,
+				2C1A634F0FE9847200ECA7BC /* AlertDataSource.h */,
+			);
+			name = Old;
+			sourceTree = "<group>";
+		};
+		2C7BD1FD0FF04FCB00443F51 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				2C7BD1FE0FF04FD800443F51 /* JSON.h */,
+				2C7BD1FF0FF04FD800443F51 /* NSObject+SBJSON.h */,
+				2C7BD2000FF04FD800443F51 /* NSObject+SBJSON.m */,
+				2C7BD2010FF04FD800443F51 /* NSString+SBJSON.h */,
+				2C7BD2020FF04FD800443F51 /* NSString+SBJSON.m */,
+				2C7BD2030FF04FD800443F51 /* SBJSON.h */,
+				2C7BD2040FF04FD800443F51 /* SBJSON.m */,
+				2C7BD2050FF04FD800443F51 /* SBJsonBase.h */,
+				2C7BD2060FF04FD800443F51 /* SBJsonBase.m */,
+				2C7BD2070FF04FD800443F51 /* SBJsonParser.h */,
+				2C7BD2080FF04FD800443F51 /* SBJsonParser.m */,
+				2C7BD2090FF04FD800443F51 /* SBJsonWriter.h */,
+				2C7BD20A0FF04FD800443F51 /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* iBeeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iBeeper" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iBeeper;
+			productName = iBeeper;
+			productReference = 1D6058910D05DD3D006BFB54 /* iBeeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iBeeper" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* iBeeper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* iBeeperViewController.xib in Resources */,
+				2C34928E0FE97C6100393712 /* Settings.bundle in Resources */,
+				2C1BA21F0FEDF5C2000951E5 /* horizontal_line.png in Resources */,
+				2C1BA3970FEEF86B000951E5 /* down.png in Resources */,
+				2C1BA3980FEEF86B000951E5 /* up.png in Resources */,
+				2C281AE20FF075000060B64C /* Notes.txt in Resources */,
+				2C7562AD0FF1BAA1009D6591 /* SettingsTableViewController.xib in Resources */,
+				2C7564440FF2860F009D6591 /* appStat.plist in Resources */,
+				2C290D070FF2CC1200DE115A /* iBeeper.sqlite in Resources */,
+				2CCC23830FFD143700295D7D /* ibeeper_beeper.aif in Resources */,
+				2C59B66A0FFE82C1006E32FC /* ibeeper1.caf in Resources */,
+				2C743A01101AD6CA00296CF9 /* iBeeperInfoView.xib in Resources */,
+				2C0A1CD7113A950000780505 /* horizontal_line.jpg in Resources */,
+				2C0A1CFB113AA0BB00780505 /* BeepDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* iBeeperAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* iBeeperViewController.m in Sources */,
+				2C1A63420FE97DDD00ECA7BC /* BeepModel.m in Sources */,
+				2C1BA1EF0FEDF243000951E5 /* BeepDetailViewController.m in Sources */,
+				2C7BD0890FEFE54100443F51 /* BeepStorageManager.m in Sources */,
+				2C7BD20B0FF04FD800443F51 /* NSObject+SBJSON.m in Sources */,
+				2C7BD20C0FF04FD800443F51 /* NSString+SBJSON.m in Sources */,
+				2C7BD20D0FF04FD800443F51 /* SBJSON.m in Sources */,
+				2C7BD20E0FF04FD800443F51 /* SBJsonBase.m in Sources */,
+				2C7BD20F0FF04FD800443F51 /* SBJsonParser.m in Sources */,
+				2C7BD2100FF04FD800443F51 /* SBJsonWriter.m in Sources */,
+				2C7562A90FF1B7DA009D6591 /* SettingsTableViewController.m in Sources */,
+				2C743A00101AD6CA00296CF9 /* iBeeperInfoView.m in Sources */,
+				2CA250C210BAA79B00A93B68 /* NSStringEmailCategory.m in Sources */,
+				2C655F341138D4BA002261CF /* AppStateManager.m in Sources */,
+				2C4216531145FBB50047369A /* ActionSheetManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iBeeper_Prefix.pch;
+				INFOPLIST_FILE = "iBeeper-Info.plist";
+				LD_OPENMP_FLAGS = "-fopenmp";
+				PRODUCT_NAME = iBeeper;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iBeeper_Prefix.pch;
+				INFOPLIST_FILE = "iBeeper-Info.plist";
+				LD_OPENMP_FLAGS = "-fopenmp";
+				PRODUCT_NAME = iBeeper;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos3.1.3;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos3.1.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iBeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iBeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

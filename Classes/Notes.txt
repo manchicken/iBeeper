@@ -1,0 +1,11 @@
+TODO:
+    1. DONE -- Implement remaining backend actions
+    2. DONE -- Set up initial SQLite3 DB
+    3. DONE -- Get Storage Delegate working with SQLite3 DB
+    4. DONE -- Get BeepStorageDelegate stuff loading up the SQLite3 DB from remote endpoint
+    5. DONE -- Get the loadAllBeeps routine ONLY loading from the DB.
+    6. DONE -- Get the backend actually storing stuff
+    7. DONE -- Settings
+    8. DONE -- First-run screen
+    9. Get the UI using and displaying the email address from the backend
+    10. Re-do the initial setting screen and mesh it with the "i" icon in toolbar.

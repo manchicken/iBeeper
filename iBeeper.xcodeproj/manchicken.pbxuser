@@ -1,0 +1,1053 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* iBeeperAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {764, 580}}";
+			sepNavSelRange = "{180, 29}";
+			sepNavVisRange = "{0, 665}";
+		};
+	};
+	1D3623250D0F684500981E51 /* iBeeperAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {796, 1888}}";
+			sepNavSelRange = "{3275, 0}";
+			sepNavVisRange = "{155, 1534}";
+			sepNavWindowFrame = "{{15, 73}, {823, 700}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* iBeeper */ = {
+		activeExec = 0;
+		executables = (
+			2C34927B0FE97A6900393712 /* iBeeper */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* iBeeperViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {908, 704}}";
+			sepNavSelRange = "{1252, 0}";
+			sepNavVisRange = "{46, 1267}";
+			sepNavWindowFrame = "{{15, 243}, {687, 780}}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* iBeeperViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {723, 6512}}";
+			sepNavSelRange = "{7145, 6}";
+			sepNavVisRange = "{6466, 1400}";
+			sepNavWindowFrame = "{{15, 63}, {782, 715}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 2C34927B0FE97A6900393712 /* iBeeper */;
+		activeSDKPreference = iphoneos3.1.3;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* iBeeper */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* iBeeper */,
+		);
+		breakpoints = (
+			2C837FB80FE9AE33005D6D40 /* AlertDataSource.m:34 */,
+			2C1BCCD71048F330004E3DE6 /* iBeeperViewController.m:350 */,
+		);
+		codeSenseManager = 2C3492890FE97A8100393712 /* Code sense */;
+		executables = (
+			2C34927B0FE97A6900393712 /* iBeeper */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					339.20849609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					374,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					486,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					446,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 302587446;
+			PBXWorkspaceStateSaveDate = 302587446;
+		};
+		perUserProjectItems = {
+			28D7ACF70DDB3853001CB0EB /* iBeeperViewController.m */ = 28D7ACF70DDB3853001CB0EB /* iBeeperViewController.m */;
+			2C0A1B63113988E400780505 /* PBXTextBookmark */ = 2C0A1B63113988E400780505 /* PBXTextBookmark */;
+			2C0A1B64113988E400780505 /* PBXTextBookmark */ = 2C0A1B64113988E400780505 /* PBXTextBookmark */;
+			2C0A1BD11139BAEC00780505 /* PBXTextBookmark */ = 2C0A1BD11139BAEC00780505 /* PBXTextBookmark */;
+			2C0A1CC71139C56A00780505 /* PBXTextBookmark */ = 2C0A1CC71139C56A00780505 /* PBXTextBookmark */;
+			2C0F54FB1092F0060078AE79 /* PBXTextBookmark */ = 2C0F54FB1092F0060078AE79 /* PBXTextBookmark */;
+			2C0F5566109C0E620078AE79 /* PlistBookmark */ = 2C0F5566109C0E620078AE79 /* PlistBookmark */;
+			2C1A63410FE97DDD00ECA7BC /* BeepModel.m */ = 2C1A63410FE97DDD00ECA7BC /* BeepModel.m */;
+			2C1BA1ED0FEDF243000951E5 /* BeepDetailViewController.m */ = 2C1BA1ED0FEDF243000951E5 /* BeepDetailViewController.m */;
+			2C1BA39B0FEEF873000951E5 /* PBXBookmark */ = 2C1BA39B0FEEF873000951E5 /* PBXBookmark */;
+			2C4216711145FDEC0047369A /* PBXTextBookmark */ = 2C4216711145FDEC0047369A /* PBXTextBookmark */;
+			2C421684114605E20047369A /* PBXTextBookmark */ = 2C421684114605E20047369A /* PBXTextBookmark */;
+			2C49982711951724000FBC7F /* PBXTextBookmark */ = 2C49982711951724000FBC7F /* PBXTextBookmark */;
+			2C59FDFB114DCF5B0043FE99 /* PBXTextBookmark */ = 2C59FDFB114DCF5B0043FE99 /* PBXTextBookmark */;
+			2C6191790FED66A900B4CA19 /* PBXTextBookmark */ = 2C6191790FED66A900B4CA19 /* PBXTextBookmark */;
+			2C655EFE1138D2CD002261CF /* PBXTextBookmark */ = 2C655EFE1138D2CD002261CF /* PBXTextBookmark */;
+			2C655EFF1138D2CD002261CF /* PBXTextBookmark */ = 2C655EFF1138D2CD002261CF /* PBXTextBookmark */;
+			2C655F021138D2CD002261CF /* PBXTextBookmark */ = 2C655F021138D2CD002261CF /* PBXTextBookmark */;
+			2C655F081138D2CD002261CF /* PBXTextBookmark */ = 2C655F081138D2CD002261CF /* PBXTextBookmark */;
+			2C655F0E1138D2CD002261CF /* PBXTextBookmark */ = 2C655F0E1138D2CD002261CF /* PBXTextBookmark */;
+			2C74679311FE89B100376CBE /* PBXTextBookmark */ = 2C74679311FE89B100376CBE /* PBXTextBookmark */;
+			2C74679411FE89B100376CBE /* PBXTextBookmark */ = 2C74679411FE89B100376CBE /* PBXTextBookmark */;
+			2C7467B511FE8A3B00376CBE /* PBXTextBookmark */ = 2C7467B511FE8A3B00376CBE /* PBXTextBookmark */;
+			2C7562880FF1AD6E009D6591 /* PBXBookmark */ = 2C7562880FF1AD6E009D6591 /* PBXBookmark */;
+			2C75644A0FF28729009D6591 /* PlistBookmark */ = 2C75644A0FF28729009D6591 /* PlistBookmark */;
+			2C78D262114C0932004626A7 /* PBXBookmark */ = 2C78D262114C0932004626A7 /* PBXBookmark */;
+			2C78D263114C0932004626A7 /* PBXTextBookmark */ = 2C78D263114C0932004626A7 /* PBXTextBookmark */;
+			2C78D265114C0932004626A7 /* PBXTextBookmark */ = 2C78D265114C0932004626A7 /* PBXTextBookmark */;
+			2C78D267114C0932004626A7 /* PBXTextBookmark */ = 2C78D267114C0932004626A7 /* PBXTextBookmark */;
+			2C7937D912091E6900BD1871 /* PBXBookmark */ = 2C7937D912091E6900BD1871 /* PBXBookmark */;
+			2C7937DA12091E8E00BD1871 /* PBXTextBookmark */ = 2C7937DA12091E8E00BD1871 /* PBXTextBookmark */;
+			2C7937DB12091E8E00BD1871 /* PBXTextBookmark */ = 2C7937DB12091E8E00BD1871 /* PBXTextBookmark */;
+			2C7937E012091E8E00BD1871 /* PBXTextBookmark */ = 2C7937E012091E8E00BD1871 /* PBXTextBookmark */;
+			2C7937E112091E8E00BD1871 /* PBXTextBookmark */ = 2C7937E112091E8E00BD1871 /* PBXTextBookmark */;
+			2C7AFA69115577C20024401A /* PBXTextBookmark */ = 2C7AFA69115577C20024401A /* PBXTextBookmark */;
+			2C7AFA7D11557F5A0024401A /* PBXTextBookmark */ = 2C7AFA7D11557F5A0024401A /* PBXTextBookmark */;
+			2C7AFA9D11558A240024401A /* PBXTextBookmark */ = 2C7AFA9D11558A240024401A /* PBXTextBookmark */;
+			2C7BD19B0FF0455C00443F51 /* PlistBookmark */ = 2C7BD19B0FF0455C00443F51 /* PlistBookmark */;
+			2C7BD1E30FF04F0300443F51 /* PBXTextBookmark */ = 2C7BD1E30FF04F0300443F51 /* PBXTextBookmark */;
+			2C7BD2130FF04FFF00443F51 /* PBXTextBookmark */ = 2C7BD2130FF04FFF00443F51 /* PBXTextBookmark */;
+			2C7BD2140FF04FFF00443F51 /* PBXTextBookmark */ = 2C7BD2140FF04FFF00443F51 /* PBXTextBookmark */;
+			2C7BD2150FF04FFF00443F51 /* PBXTextBookmark */ = 2C7BD2150FF04FFF00443F51 /* PBXTextBookmark */;
+			2C7BD2170FF04FFF00443F51 /* PBXTextBookmark */ = 2C7BD2170FF04FFF00443F51 /* PBXTextBookmark */;
+			2C7BD2280FF050B900443F51 /* PBXTextBookmark */ = 2C7BD2280FF050B900443F51 /* PBXTextBookmark */;
+			2C9F03321048D03000C000CF /* PBXTextBookmark */ = 2C9F03321048D03000C000CF /* PBXTextBookmark */;
+			2CC911AC11FA8D4200BAFF88 /* PBXTextBookmark */ = 2CC911AC11FA8D4200BAFF88 /* PBXTextBookmark */;
+			2CD8660F114C22690002D015 /* PlistBookmark */ = 2CD8660F114C22690002D015 /* PlistBookmark */;
+			2CD8670E114CBCFC0002D015 /* PBXTextBookmark */ = 2CD8670E114CBCFC0002D015 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 2C3492880FE97A8100393712 /* Source Control */;
+		userBookmarkGroup = 2C7561FB0FF19CAD009D6591 /* PBXBookmarkGroup */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {668, 373}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 371}";
+		};
+	};
+	2C0A1B63113988E400780505 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C7BD0870FEFE54100443F51 /* BeepStorageManager.h */;
+		name = "BeepStorageManager.h: 68";
+		rLen = 0;
+		rLoc = 2123;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 0;
+	};
+	2C0A1B64113988E400780505 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2CA250C110BAA79B00A93B68 /* NSStringEmailCategory.m */;
+		name = "NSStringEmailCategory.m: 11";
+		rLen = 0;
+		rLoc = 234;
+		rType = 0;
+		vrLen = 510;
+		vrLoc = 0;
+	};
+	2C0A1BD11139BAEC00780505 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C290D050FF2CAB100DE115A /* Queries.h */;
+		name = "Queries.h: 33";
+		rLen = 0;
+		rLoc = 1188;
+		rType = 0;
+		vrLen = 665;
+		vrLoc = 655;
+	};
+	2C0A1CC71139C56A00780505 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C7439FD101AD6CA00296CF9 /* iBeeperInfoView.h */;
+		name = "iBeeperInfoView.h: 13";
+		rLen = 0;
+		rLoc = 278;
+		rType = 0;
+		vrLen = 687;
+		vrLoc = 177;
+	};
+	2C0F54FB1092F0060078AE79 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2CAB21E60FF40186008AE70C /* SettingsValues.h */;
+		name = "SettingsValues.h: 22";
+		rLen = 13;
+		rLoc = 589;
+		rType = 0;
+		vrLen = 666;
+		vrLoc = 3;
+	};
+	2C0F5566109C0E620078AE79 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 2C281B740FF15C0E0060B64C /* Root.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			PreferenceSpecifiers,
+			6,
+		);
+		name = /Users/manchicken/Documents/Devel/iBeeper/Settings.bundle/Root.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	2C1A63400FE97DDD00ECA7BC /* BeepModel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {764, 605}}";
+			sepNavSelRange = "{573, 0}";
+			sepNavVisRange = "{0, 788}";
+			sepNavWindowFrame = "{{15, 73}, {823, 700}}";
+		};
+	};
+	2C1A63410FE97DDD00ECA7BC /* BeepModel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {764, 1824}}";
+			sepNavSelRange = "{2505, 0}";
+			sepNavVisRange = "{1716, 794}";
+			sepNavWindowFrame = "{{290, 78}, {823, 700}}";
+		};
+	};
+	2C1A634F0FE9847200ECA7BC /* AlertDataSource.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {627, 374}}";
+			sepNavSelRange = "{251, 21}";
+			sepNavVisRange = "{0, 374}";
+			sepNavWindowFrame = "{{9, 62}, {687, 716}}";
+		};
+	};
+	2C1A63500FE9847200ECA7BC /* AlertDataSource.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {664, 1152}}";
+			sepNavSelRange = "{275, 0}";
+			sepNavVisRange = "{486, 535}";
+			sepNavWindowFrame = "{{451, 62}, {687, 716}}";
+		};
+	};
+	2C1BA1EC0FEDF243000951E5 /* BeepDetailViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {824, 800}}";
+			sepNavSelRange = "{240, 0}";
+			sepNavVisRange = "{0, 1355}";
+		};
+	};
+	2C1BA1ED0FEDF243000951E5 /* BeepDetailViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {698, 5456}}";
+			sepNavSelRange = "{9458, 0}";
+			sepNavVisRange = "{9316, 362}";
+			sepNavWindowFrame = "{{291, 78}, {823, 700}}";
+		};
+	};
+	2C1BA21E0FEDF5C2000951E5 /* horizontal_line.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 73}, {823, 700}}";
+		};
+	};
+	2C1BA39B0FEEF873000951E5 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 2C1BA3950FEEF86B000951E5 /* down.png */;
+	};
+	2C1BCCD71048F330004E3DE6 /* iBeeperViewController.m:350 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* iBeeperViewController.m */;
+		functionName = "-displayInfo:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 350;
+		location = iBeeper;
+		modificationTime = 290152556.483661;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	2C281AE10FF075000060B64C /* Notes.txt */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {668, 431}}";
+			sepNavSelRange = "{586, 0}";
+			sepNavVisRange = "{0, 586}";
+		};
+	};
+	2C281B740FF15C0E0060B64C /* Root.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = Root.plist;
+		path = /Users/manchicken/Documents/Devel/iBeeper/Settings.bundle/Root.plist;
+		plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.settings";
+		sourceTree = "<absolute>";
+	};
+	2C290D050FF2CAB100DE115A /* Queries.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {447, 752}}";
+			sepNavSelRange = "{1188, 0}";
+			sepNavVisRange = "{655, 665}";
+		};
+	};
+	2C34927B0FE97A6900393712 /* iBeeper */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+			{
+				active = YES;
+				name = NSZombieEnabled;
+				value = YES;
+			},
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = iBeeper;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eax = 1;
+			$ebp = 1;
+			$ebx = 1;
+			$ecx = 1;
+			$edi = 1;
+			$edx = 1;
+			$eflags = 1;
+			$eip = 1;
+			$es = 1;
+			$esi = 1;
+			$esp = 1;
+			$fs = 1;
+			$gs = 1;
+			$lr = 1;
+			$pc = 1;
+			$r0 = 1;
+			$r1 = 1;
+			$r10 = 1;
+			$r11 = 1;
+			$r12 = 1;
+			$r2 = 1;
+			$r3 = 1;
+			$r4 = 1;
+			$r5 = 1;
+			$r6 = 1;
+			$r7 = 1;
+			$r8 = 1;
+			$r9 = 1;
+			$sp = 1;
+			$ss = 1;
+		};
+	};
+	2C3492880FE97A8100393712 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryName = iBeeper;
+			repositoryNamesForRoots = {
+				"" = iBeeper;
+			};
+		};
+	};
+	2C3492890FE97A8100393712 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	2C4216711145FDEC0047369A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C655F321138D4BA002261CF /* AppStateManager.h */;
+		name = "AppStateManager.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 464;
+		vrLoc = 0;
+	};
+	2C421684114605E20047369A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C655E7C11360119002261CF /* ActionSheetManager.h */;
+		name = "ActionSheetManager.h: 9";
+		rLen = 0;
+		rLoc = 173;
+		rType = 0;
+		vrLen = 355;
+		vrLoc = 0;
+	};
+	2C49982711951724000FBC7F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C7563FC0FF26EB3009D6591 /* KeysAndConstants.h */;
+		name = "KeysAndConstants.h: 19";
+		rLen = 0;
+		rLoc = 384;
+		rType = 0;
+		vrLen = 487;
+		vrLoc = 157;
+	};
+	2C59FDFB114DCF5B0043FE99 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C1A63400FE97DDD00ECA7BC /* BeepModel.h */;
+		name = "BeepModel.h: 24";
+		rLen = 0;
+		rLoc = 513;
+		rType = 0;
+		vrLen = 461;
+		vrLoc = 237;
+	};
+	2C6191790FED66A900B4CA19 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C1A634F0FE9847200ECA7BC /* AlertDataSource.h */;
+		name = "AlertDataSource.h: 12";
+		rLen = 21;
+		rLoc = 251;
+		rType = 0;
+		vrLen = 374;
+		vrLoc = 0;
+	};
+	2C655E7C11360119002261CF /* ActionSheetManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {474, 368}}";
+			sepNavSelRange = "{173, 0}";
+			sepNavVisRange = "{0, 355}";
+		};
+	};
+	2C655E7D11360119002261CF /* ActionSheetManager.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {797, 496}}";
+			sepNavSelRange = "{502, 2}";
+			sepNavVisRange = "{388, 270}";
+			sepNavWindowFrame = "{{452, 56}, {823, 700}}";
+		};
+	};
+	2C655E7F11360134002261CF /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 2C655E7C11360119002261CF /* ActionSheetManager.h */;
+	};
+	2C655E8011360134002261CF /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 2C655E7D11360119002261CF /* ActionSheetManager.m */;
+	};
+	2C655EFE1138D2CD002261CF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 371;
+		vrLoc = 0;
+	};
+	2C655EFF1138D2CD002261CF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* iBeeper_Prefix.pch */;
+		name = "iBeeper_Prefix.pch: 10";
+		rLen = 0;
+		rLoc = 225;
+		rType = 0;
+		vrLen = 225;
+		vrLoc = 0;
+	};
+	2C655F021138D2CD002261CF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C7562A70FF1B7DA009D6591 /* SettingsTableViewController.h */;
+		name = "SettingsTableViewController.h: 21";
+		rLen = 0;
+		rLoc = 600;
+		rType = 0;
+		vrLen = 534;
+		vrLoc = 0;
+	};
+	2C655F081138D2CD002261CF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* iBeeperAppDelegate.h */;
+		name = "iBeeperAppDelegate.h: 10";
+		rLen = 31;
+		rLoc = 180;
+		rType = 0;
+		vrLen = 619;
+		vrLoc = 43;
+	};
+	2C655F0E1138D2CD002261CF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2CA250C010BAA79B00A93B68 /* NSStringEmailCategory.h */;
+		name = "NSStringEmailCategory.h: 9";
+		rLen = 0;
+		rLoc = 187;
+		rType = 0;
+		vrLen = 258;
+		vrLoc = 0;
+	};
+	2C655F2E1138D4A6002261CF /* iBeeperInfoView.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = iBeeperInfoView.m;
+		path = /Users/manchicken/Documents/Devel/iBeeper/Classes/iBeeperInfoView.m;
+		sourceTree = "<absolute>";
+	};
+	2C655F321138D4BA002261CF /* AppStateManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {447, 384}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 464}";
+		};
+	};
+	2C655F331138D4BA002261CF /* AppStateManager.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {764, 2128}}";
+			sepNavSelRange = "{486, 0}";
+			sepNavVisRange = "{294, 665}";
+			sepNavWindowFrame = "{{15, 73}, {823, 700}}";
+		};
+	};
+	2C7439FD101AD6CA00296CF9 /* iBeeperInfoView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {453, 512}}";
+			sepNavSelRange = "{278, 0}";
+			sepNavVisRange = "{177, 687}";
+		};
+	};
+	2C7439FE101AD6CA00296CF9 /* iBeeperInfoView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 1600}}";
+			sepNavSelRange = "{1927, 0}";
+			sepNavVisRange = "{889, 1366}";
+			sepNavWindowFrame = "{{558, 158}, {700, 617}}";
+		};
+	};
+	2C74679311FE89B100376CBE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C1BA1ED0FEDF243000951E5 /* BeepDetailViewController.m */;
+		name = "BeepDetailViewController.m: 253";
+		rLen = 0;
+		rLoc = 9458;
+		rType = 0;
+		vrLen = 474;
+		vrLoc = 9316;
+	};
+	2C74679411FE89B100376CBE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C7BD0880FEFE54100443F51 /* BeepStorageManager.m */;
+		name = "BeepStorageManager.m: 48";
+		rLen = 0;
+		rLoc = 998;
+		rType = 0;
+		vrLen = 316;
+		vrLoc = 240;
+	};
+	2C7467B511FE8A3B00376CBE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iBeeperViewController.m */;
+		name = "iBeeperViewController.m: 240";
+		rLen = 6;
+		rLoc = 7145;
+		rType = 0;
+		vrLen = 1400;
+		vrLoc = 6466;
+	};
+	2C7561FB0FF19CAD009D6591 /* PBXBookmarkGroup */ = {
+		isa = PBXBookmarkGroup;
+		children = (
+			2C7562820FF1AC71009D6591 /* PBXBookmark */,
+			2CAB228A0FF415F3008AE70C /* PBXTextBookmark */,
+			2C655E7F11360134002261CF /* PBXBookmark */,
+			2C655E8011360134002261CF /* PBXBookmark */,
+		);
+		name = Root;
+	};
+	2C7562820FF1AC71009D6591 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 2C1BA1ED0FEDF243000951E5 /* BeepDetailViewController.m */;
+	};
+	2C7562880FF1AD6E009D6591 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 2C1BA21E0FEDF5C2000951E5 /* horizontal_line.png */;
+	};
+	2C7562A70FF1B7DA009D6591 /* SettingsTableViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {723, 644}}";
+			sepNavSelRange = "{536, 0}";
+			sepNavVisRange = "{0, 714}";
+		};
+	};
+	2C7562A80FF1B7DA009D6591 /* SettingsTableViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {664, 5840}}";
+			sepNavSelRange = "{12243, 0}";
+			sepNavVisRange = "{11956, 386}";
+			sepNavWindowFrame = "{{445, 62}, {782, 716}}";
+		};
+	};
+	2C7563FC0FF26EB3009D6591 /* KeysAndConstants.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {747, 896}}";
+			sepNavSelRange = "{384, 0}";
+			sepNavVisRange = "{157, 487}";
+			sepNavWindowFrame = "{{555, 62}, {687, 716}}";
+		};
+	};
+	2C75644A0FF28729009D6591 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 2C7564430FF2860F009D6591 /* appStat.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/manchicken/Documents/Devel/iBeeper/appStat.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	2C78D262114C0932004626A7 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 2C0A1CD6113A950000780505 /* horizontal_line.jpg */;
+	};
+	2C78D263114C0932004626A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* iBeeperViewController.h */;
+		name = "iBeeperViewController.h: 12";
+		rLen = 0;
+		rLoc = 239;
+		rType = 0;
+		vrLen = 752;
+		vrLoc = 239;
+	};
+	2C78D265114C0932004626A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C655F2E1138D4A6002261CF /* iBeeperInfoView.m */;
+		name = "iBeeperInfoView.m: 53";
+		rLen = 0;
+		rLoc = 1801;
+		rType = 0;
+		vrLen = 791;
+		vrLoc = 1219;
+	};
+	2C78D267114C0932004626A7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C655E7D11360119002261CF /* ActionSheetManager.m */;
+		name = "ActionSheetManager.m: 21";
+		rLen = 5;
+		rLoc = 540;
+		rType = 0;
+		vrLen = 560;
+		vrLoc = 0;
+	};
+	2C7937D912091E6900BD1871 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 2C1BA1ED0FEDF243000951E5 /* BeepDetailViewController.m */;
+	};
+	2C7937DA12091E8E00BD1871 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iBeeperViewController.m */;
+		name = "iBeeperViewController.m: 240";
+		rLen = 6;
+		rLoc = 7145;
+		rType = 0;
+		vrLen = 362;
+		vrLoc = 7479;
+	};
+	2C7937DB12091E8E00BD1871 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C1BA1ED0FEDF243000951E5 /* BeepDetailViewController.m */;
+		name = "BeepDetailViewController.m: 253";
+		rLen = 0;
+		rLoc = 9458;
+		rType = 0;
+		vrLen = 362;
+		vrLoc = 9316;
+	};
+	2C7937E012091E8E00BD1871 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C1BA1ED0FEDF243000951E5 /* BeepDetailViewController.m */;
+		name = "BeepDetailViewController.m: 175";
+		rLen = 0;
+		rLoc = 6481;
+		rType = 0;
+		vrLen = 1297;
+		vrLoc = 8660;
+	};
+	2C7937E112091E8E00BD1871 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* iBeeperViewController.m */;
+		name = "iBeeperViewController.m: 240";
+		rLen = 6;
+		rLoc = 7145;
+		rType = 0;
+		vrLen = 1400;
+		vrLoc = 6466;
+	};
+	2C7AFA69115577C20024401A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C7562A80FF1B7DA009D6591 /* SettingsTableViewController.m */;
+		name = "SettingsTableViewController.m: 359";
+		rLen = 0;
+		rLoc = 12243;
+		rType = 0;
+		vrLen = 386;
+		vrLoc = 11956;
+	};
+	2C7AFA7D11557F5A0024401A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C1A63410FE97DDD00ECA7BC /* BeepModel.m */;
+		name = "BeepModel.m: 113";
+		rLen = 0;
+		rLoc = 2505;
+		rType = 0;
+		vrLen = 376;
+		vrLoc = 2134;
+	};
+	2C7AFA9D11558A240024401A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* iBeeperAppDelegate.m */;
+		name = "iBeeperAppDelegate.m: 65";
+		rLen = 0;
+		rLoc = 2229;
+		rType = 0;
+		vrLen = 643;
+		vrLoc = 2073;
+	};
+	2C7BD0870FEFE54100443F51 /* BeepStorageManager.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {764, 1168}}";
+			sepNavSelRange = "{1172, 33}";
+			sepNavVisRange = "{705, 1418}";
+			sepNavWindowFrame = "{{434, 78}, {823, 700}}";
+		};
+	};
+	2C7BD0880FEFE54100443F51 /* BeepStorageManager.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {664, 14608}}";
+			sepNavSelRange = "{998, 0}";
+			sepNavVisRange = "{240, 316}";
+			sepNavWindowFrame = "{{345, 78}, {823, 700}}";
+		};
+	};
+	2C7BD19B0FF0455C00443F51 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 2C7BD19C0FF0455C00443F51 /* SDKSettings.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/manchicken/Documents/Devel/iBeeper/iphoneos.sdk/SDKSettings.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	2C7BD19C0FF0455C00443F51 /* SDKSettings.plist */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.xml;
+		name = SDKSettings.plist;
+		path = /Users/manchicken/Documents/Devel/iBeeper/iphoneos.sdk/SDKSettings.plist;
+		sourceTree = "<absolute>";
+	};
+	2C7BD1E30FF04F0300443F51 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C7BD1E40FF04F0300443F51 /* SBJSON.h */;
+		name = "SBJSON.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 927;
+		vrLoc = 1870;
+	};
+	2C7BD1E40FF04F0300443F51 /* SBJSON.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = SBJSON.h;
+		path = /Users/manchicken/Documents/Devel/iBeeper/JSON/SBJSON.h;
+		sourceTree = "<absolute>";
+	};
+	2C7BD1F20FF04F0300443F51 /* SBJsonBase.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SBJsonBase.m;
+		path = /Users/manchicken/Documents/Devel/iBeeper/JSON/SBJsonBase.m;
+		sourceTree = "<absolute>";
+	};
+	2C7BD1F40FF04F0300443F51 /* SBJsonParser.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SBJsonParser.m;
+		path = /Users/manchicken/Documents/Devel/iBeeper/JSON/SBJsonParser.m;
+		sourceTree = "<absolute>";
+	};
+	2C7BD1F60FF04F0300443F51 /* SBJsonParser.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = SBJsonParser.h;
+		path = /Users/manchicken/Documents/Devel/iBeeper/JSON/SBJsonParser.h;
+		sourceTree = "<absolute>";
+	};
+	2C7BD1FE0FF04FD800443F51 /* JSON.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {675, 816}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1054, 1243}";
+		};
+	};
+	2C7BD20A0FF04FD800443F51 /* SBJsonWriter.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {675, 3472}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1514}";
+		};
+	};
+	2C7BD2130FF04FFF00443F51 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C7BD1F20FF04F0300443F51 /* SBJsonBase.m */;
+		name = "SBJsonBase.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 743;
+		vrLoc = 1606;
+	};
+	2C7BD2140FF04FFF00443F51 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C7BD1F60FF04F0300443F51 /* SBJsonParser.h */;
+		name = "SBJsonParser.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 744;
+		vrLoc = 1361;
+	};
+	2C7BD2150FF04FFF00443F51 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C7BD1F40FF04F0300443F51 /* SBJsonParser.m */;
+		name = "SBJsonParser.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 706;
+		vrLoc = 11511;
+	};
+	2C7BD2170FF04FFF00443F51 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C7BD1FE0FF04FD800443F51 /* JSON.h */;
+		name = "JSON.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1243;
+		vrLoc = 1054;
+	};
+	2C7BD2190FF04FFF00443F51 /* SBJsonWriter.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SBJsonWriter.m;
+		path = /Users/manchicken/Documents/Devel/iBeeper/JSON/SBJsonWriter.m;
+		sourceTree = "<absolute>";
+	};
+	2C7BD2280FF050B900443F51 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C7BD2190FF04FFF00443F51 /* SBJsonWriter.m */;
+		name = "SBJsonWriter.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1514;
+		vrLoc = 0;
+	};
+	2C837FB80FE9AE33005D6D40 /* AlertDataSource.m:34 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 2C1A63500FE9847200ECA7BC /* AlertDataSource.m */;
+		functionName = "-tableView:cellForRowAtIndexPath:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 34;
+		modificationTime = 290152556.226661;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	2C9F03321048D03000C000CF /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C281AE10FF075000060B64C /* Notes.txt */;
+		name = "Notes.txt: 11";
+		rLen = 0;
+		rLoc = 586;
+		rType = 0;
+		vrLen = 586;
+		vrLoc = 0;
+	};
+	2CA250C010BAA79B00A93B68 /* NSStringEmailCategory.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {668, 373}}";
+			sepNavSelRange = "{187, 0}";
+			sepNavVisRange = "{0, 258}";
+			sepNavWindowFrame = "{{15, 73}, {823, 700}}";
+		};
+	};
+	2CA250C110BAA79B00A93B68 /* NSStringEmailCategory.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {579, 390}}";
+			sepNavSelRange = "{234, 0}";
+			sepNavVisRange = "{0, 510}";
+		};
+	};
+	2CAB21E60FF40186008AE70C /* SettingsValues.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {668, 368}}";
+			sepNavSelRange = "{589, 13}";
+			sepNavVisRange = "{3, 666}";
+			sepNavWindowFrame = "{{15, 62}, {687, 716}}";
+		};
+	};
+	2CAB228A0FF415F3008AE70C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C7BD0880FEFE54100443F51 /* BeepStorageManager.m */;
+		name = path;
+		rLen = 0;
+		rLoc = 18355;
+		rType = 0;
+		vrLen = 1189;
+		vrLoc = 12959;
+	};
+	2CC911AC11FA8D4200BAFF88 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C1A63500FE9847200ECA7BC /* AlertDataSource.m */;
+		name = "AlertDataSource.m: 15";
+		rLen = 0;
+		rLoc = 275;
+		rType = 0;
+		vrLen = 535;
+		vrLoc = 486;
+	};
+	2CD8660F114C22690002D015 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* iBeeper-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			UIStatusBarStyle,
+		);
+		name = "/Users/manchicken/Documents/Devel/iBeeper/iBeeper-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	2CD8670E114CBCFC0002D015 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2C1BA1EC0FEDF243000951E5 /* BeepDetailViewController.h */;
+		name = "BeepDetailViewController.h: 12";
+		rLen = 0;
+		rLoc = 240;
+		rType = 0;
+		vrLen = 611;
+		vrLoc = 3;
+	};
+	32CA4F630368D1EE00C91783 /* iBeeper_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {668, 373}}";
+			sepNavSelRange = "{225, 0}";
+			sepNavVisRange = "{0, 225}";
+		};
+	};
+}
